@@ -3,6 +3,7 @@ const showModalbtnRef = document.getElementById('showModal');
 const closeModalbtnRef = modalEleRef.querySelector('#close-modal');
 const backdropEleRef = document.getElementById('backdrop');
 
+//show/hide overlay using js toggle class
 const toggleBackdrop = () => {
     backdropEleRef.classList.toggle('visible');
 }
